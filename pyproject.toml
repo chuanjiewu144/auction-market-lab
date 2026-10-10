@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "auction-market-lab"
+version = "0.4.0"
+description = "A reproducible daily market-making RFQ tournament and local game API"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24,<3", "pandas>=2.0,<3", "matplotlib>=3.6,<4"]
+
+[tool.setuptools.packages.find]
+include = ["auction_lab*"]
+

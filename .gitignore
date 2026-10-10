@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.env
+.env.*
+.DS_Store
+Thumbs.db
+/runs/
+/data/private/
+auction_colab_*/

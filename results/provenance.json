@@ -1,0 +1,39 @@
+{
+  "release": "0.4.0",
+  "date": "2026-10-10",
+  "data": "synthetic",
+  "six_players": "Regenerated main and informed stress with v0.4; main leaderboard matches prior Colab result.",
+  "nine_players": "Preserved v0.3 main/stress and twenty additional seeds; full v0.4 main daily P&L exactly matches v0.3.",
+  "additional_nine_player_seeds": [
+    1007,
+    1008,
+    1009,
+    1010,
+    1011,
+    1012,
+    1013,
+    1014,
+    1015,
+    1016,
+    1017,
+    1018,
+    1019,
+    1020,
+    1021,
+    1022,
+    1023,
+    1024,
+    1025,
+    1026
+  ],
+  "software_tests_passed": 25,
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.8"
+  },
+  "notebook_source_sha256": "294acebaa2cda8a1beaca247767022066af5a52c61a3250e53278809e8e73f7a",
+  "notebook_validation": "Eight code cells executed locally for full 100-day six-player game; nine-player historical-CSV and stress paths checked over two days. Browser file-picker/download not exercised locally.",
+  "cli_validation": "Six/nine selection, optional stress off/on, repeated export; API integration tested for six/nine bots plus external player."
+}
